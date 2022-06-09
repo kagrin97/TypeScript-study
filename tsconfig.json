@@ -1,0 +1,7 @@
+{
+  "include": ["src"], // ts파일들이 들어있는 dir
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6" // js파일 버전
+  }
+}
