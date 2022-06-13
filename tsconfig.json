@@ -2,6 +2,10 @@
   "include": ["src"], // ts파일들이 들어있는 dir
   "compilerOptions": {
     "outDir": "build",
-    "target": "ES6" // js파일 버전
+    "target": "ES6", // js파일 버전
+    "lib": ["es6"], // ts한테 어떤 api를 사용할것인지 (자동완성기능가능)
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
